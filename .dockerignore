@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.git/
+.gitignore
+.vscode/
+.idea/
+*.log
+vivo-login-page.html
+vivo-login-response.html
+vivo-status.html
+.DS_Store

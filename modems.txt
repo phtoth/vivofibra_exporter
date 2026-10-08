@@ -1,0 +1,5 @@
+This file lists the modem brands and models that have been tested.
+Este arquivo lista as marcas e modelos de modems que foram testados.
+
+- Manufacturer - Model/ Fabricante - Modelo: 
+MitraStar Technology Corp - GPT-2742GX4X5v6

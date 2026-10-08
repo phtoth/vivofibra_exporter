@@ -1,0 +1,17 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    VIVO_MODEM_URL=http://192.168.15.1 \
+    VIVO_USERNAME=admin \
+    VIVO_PASSWORD= \
+    EXPORTER_PORT=9108 \
+    POLL_INTERVAL=60
+
+COPY . /app
+
+EXPOSE 9108
+
+CMD ["python3", "vivofibra_exporter.py"]
